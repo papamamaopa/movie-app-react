@@ -1,0 +1,36 @@
+@import "../../../node_modules/materialize-css/sass/materialize.scss";
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.pt-2 {
+  padding-top: 20px;
+}
+
+.pt-3 {
+  padding-top: 30px;
+}
+
+.pt-4 {
+  padding-top: 40px;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.card {
+  background-size: cover;
+  background-position: 0 30%;
+  .card-action {
+    background-color: #ee6e73 !important;
+    a {
+      color: white !important;
+    }
+
+    span {
+      color: white !important;
+    }
+  }
+}
